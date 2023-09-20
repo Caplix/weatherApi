@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 20vh;
+    width: 100%;
+}
+
+.imgContainer{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/bilder/skybackgroundimg.jpg);
+}
+
+
+.centerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+    flex-direction: column;
+    outline: solid 1px black;
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    width: 75%;
+    max-width: 400px;
+}
+
+
+#bergen{
+    margin-top: 7rem;
+}
+
+.bergen{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/bilder/bergen.jpg);
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trondheim{
+    margin-top: 7rem;
+}
+.trondheim{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/bilder/trondheim.jpg);
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#oslo{
+    margin-top: 7rem;
+}
+.oslo{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/bilder/oslo.jpg);
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hourlyTempChart{
+    width: 30vw;
+    height: 30vh;
+}
